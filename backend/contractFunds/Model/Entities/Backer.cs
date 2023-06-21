@@ -9,6 +9,7 @@ public class Backer
     public long Id { get; set; }
     public string SurNameForBacker { get; set; }
     public string FirstNameForBacker { get; set; }
+    public string UserNameForBacker { get; set; }
     public DateTime BirthDateForBacker { get; set; }
     public string EmailAddressForBacker { get; set; }
     public string PasswordForBacker { get; set; }
