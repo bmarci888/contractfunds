@@ -21,5 +21,6 @@ public class Project
     public DateTime ProjectCreationDate { get; set; }
     public DateTime ProjectDeadline { get; set; }
     public Creator ProjectCreator { get; set; }
+    public List<Donation> Donations { get; set; }
     public List<Backer> ProjectBackers { get; set; }
 }

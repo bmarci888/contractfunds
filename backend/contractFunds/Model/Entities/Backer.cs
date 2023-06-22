@@ -14,7 +14,6 @@ public class Backer
     public string EmailAddressForBacker { get; set; }
     public string PasswordForBacker { get; set; }
     public Roles Role { get; set; }
-    public List<Project> DonatedProjects { get; set; }
     public List<Project> FavouriteProjects { get; set; }
     public List<Donation> Donations { get; set; }
     public string SolanaAddressForRefund { get; set; }
